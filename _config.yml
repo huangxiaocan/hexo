@@ -4,12 +4,13 @@
 
 # Site 这一块区域主要是设置博客的主要说明，需要注意的是：每个冒号后面都是有一个空格，然后再书写自己的内容的s
 title: 泊寓码农  #网站标题
-subtitle: 这里只有代码相关,要了解更多 >> www.boyu01.com #网站副标题
+subtitle: Talk is cheap. Show me the code
 description: 这里是 www.boyu01.com 一部分
 author: huangc
 email: 571522149@qq.com
 language: zh-CN
 timezone:   #网站时区。Hexo 默认使用您电脑的时区
+
 
 # URL 这一块一般可以设置的是 url 这个参数，比如我要设置绑定域名的，这里就需要填写我的域名信息
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -69,6 +70,8 @@ theme: yelee # next
 search:
   path: search.xml
   field: all
+
+
 
 # Deployment
 ## 这里是重点，这里是修改发布地址，因为我们前面已经加了 SSH 密钥信息在 Github 设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟 Github 做同步。

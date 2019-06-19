@@ -1,5 +1,9 @@
 ---
 title: Hexo教程：腾讯云Centos7.2搭建hexo博客步骤
+date: 2019-6-19 12:15:08
+tags: [hexo]
+categories: hexo
+fileName: 20190619121508
 ---
 本篇内容用来讲述如何将 hexo 博客部署到腾讯云的服务器上。
 只要通过三步即可成功部署：
