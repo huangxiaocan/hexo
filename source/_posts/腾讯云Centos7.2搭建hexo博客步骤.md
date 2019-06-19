@@ -1,11 +1,11 @@
 ---
-title: Hexo教程：腾讯云Centos7.2搭建hexo博客步骤
+title: Hexo教程：腾讯云Centos7.2搭建hexo博客三部曲  
 tags:
-  - hexo
-categories: hexo
-fileName: 20190619121508
-abbrlink: 7b7e
-date: 2019-06-19 12:15:08
+  - hexo  
+categories: hexo  
+description: 腾讯云Centos7.2搭建hexo博客三部曲  
+abbrlink: 7b7e  
+date: 2019-06-19 12:15:08  
 ---
 本篇内容用来讲述如何将 hexo 博客部署到腾讯云的服务器上。
 只要通过三步即可成功部署：
@@ -212,6 +212,6 @@ $ service nginx restart
 
 参考资料：  
 [将hexo部署到腾讯云上](https://www.jianshu.com/p/271449df801f "hexo腾讯云").    
-[Hexo 教程：Hexo 博客部署到腾讯云教程](https://www.fogsail.net/2018/02/22/20180222/ "hexo").      
-[markdown的下载安装破解](https://code.skyheng.com/post/36308.html,"markdown").     
-[Hexo搭建技术博客部署在阿里云服务器上教程](https://code.skyheng.com/post/36551.html,"hexo阿里云").   
+[Hexo 教程：Hexo 博客部署到腾讯云教程](https://www.fogsail.net/2018/02/22/20180222/ "hexo").        
+[markdown的下载安装破解](https://code.skyheng.com/post/36308.html "markdown").     
+[Hexo搭建技术博客部署在阿里云服务器上教程](https://code.skyheng.com/post/36551.html "hexo阿里云").   

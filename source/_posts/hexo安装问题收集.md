@@ -3,7 +3,8 @@ title: hexo安装问题收集
 tags:
   - hexo
 categories: hexo
-abbrlink: 7b7e
+description: hexo安装问题收集 
+abbrlink: 5b81
 date: 2019-06-19 12:15:08
 ---
 hexo安装问题收集

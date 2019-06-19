@@ -3,7 +3,8 @@ title: IT界常说的六大名言
 tags:
   - 笔记
 categories: 笔记
-abbrlink: 7b7e
+description: Talk is cheap. Show me the code.
+abbrlink: '9e22'
 date: 2019-06-19 12:15:08
 ---
 
