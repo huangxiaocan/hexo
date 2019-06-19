@@ -74,6 +74,7 @@ search:
 ## 这里是重点，这里是修改发布地址，因为我们前面已经加了 SSH 密钥信息在 Github 设置里面了，所以只要我们电脑里面持有那两个密钥文件就可以无需密码地跟 Github 做同步。
 ## 需要注意的是这里的 repo 采用的是 ssh 的地址，而不是 https 的。分支我们默认采用 master 分支，以后你翅膀硬了要换其他也无所谓。
 ## Docs: https://hexo.io/docs/deployment.html
+## commend : hexo c  hexo g  hexo s  hexo d
 deploy:
   type: git
   repo: root@94.191.17.217:/home/git/hexoBlog.git
