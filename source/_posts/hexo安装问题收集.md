@@ -22,5 +22,10 @@ hexo安装问题收集
 	## true: get search.xml file when the page has loaded
 	## false: get the file when search box gets focus
 	## 文章字数+阅读时长统计
+## 问题2
+hexo d 发布不上，需要安装一个插件
+
+	npm install --save hexo-deployer-git
+
 
 	

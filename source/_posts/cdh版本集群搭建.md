@@ -1,15 +1,16 @@
 ---
-title: cdh版本集群搭建 
+title: cdh版本集群搭建
 tags:
-  - 大数据  
-categories: 大数据  
-description: cdh版本集群搭建(服务器搭建) 
-## 步骤
-
-vi sudoers
+  - 大数据
+categories: 大数据
+description: cdh版本集群搭建(服务器搭建)
+abbrlink: c257
+---
+## 操作步骤
+	vi sudoers
 #编辑添加普通用户权限为root，在root权限相应的位置下添加
 
-%用户名  ALL=(ALL)  OPASSWD: ALL
+	%用户名  ALL=(ALL)  OPASSWD: ALL
 #保存要先 :wq!保存强制退出
 
 #服务器搭建(如没有生效断开重新连接就会生效)

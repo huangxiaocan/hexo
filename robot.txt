@@ -1,0 +1,10 @@
+User-Agent: *
+Allow: /
+Disallow: /background
+Disallow: /css
+Disallow: /fancybox
+Disallow: /font-awesome
+Disallow: /img
+Disallow: /js
+Sitemap: http://boyumanong.top/sitemap.xml
+Sitemap: http://boyumanong.top/baidusitemap.xml
