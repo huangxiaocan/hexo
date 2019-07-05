@@ -17,16 +17,16 @@ Node.js:allows to package an application with all of its dependencies into a sta
 1，Docker可以粗糙地理解为轻量级的虚拟机   
 2，开挂的chroot   
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_1.png)  
 
 ### Docker Mac和window安装
 1，进入docker官网：http://www.docker.com，注册Docker Hub账号后
 点击图片上的Get Start
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_2.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_2.png)  
 2,点击图片上的Get started with Docker DeskTop 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_3.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_3.png)
 选择适合自己系统的Docker版本进行下载  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_4.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_4.png) 
 
 下载对应的mac或者window安装包Docker.dmg后，双击进入下一步直到finish
 
@@ -37,7 +37,7 @@ Node.js:allows to package an application with all of its dependencies into a sta
 	sudo wget -qO- https://get.docker.com | sh
 
 执行完看到下面的结果
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_7.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_7.png) 
 把这个用户添加到docker的用户组
 
 	sudo usermod -aG docker root
@@ -47,7 +47,7 @@ Node.js:allows to package an application with all of its dependencies into a sta
     docker info	
 
 执行完docker info 会出现下面的这个报错   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_8.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_8.png)
 
 需要执行下面的两个命令即可解决
 
@@ -56,12 +56,12 @@ Node.js:allows to package an application with all of its dependencies into a sta
 	sudo service docker restart
 
 执行完之后，看到下面的结果，说明就安装成功了  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_9.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_9.png)
 ## 实践第一步
 ### docker架构介绍
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_2_1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_2_1.png)  
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_2_2.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_2_2.png)
 ### docker实	战
 1,执行第一个docker hello-world程序
 
@@ -129,8 +129,8 @@ docker在容器内做的操作都是暂时，所以我们需要保存在容器�
 
 	docker rm 容器id
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_5.png)
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_1_6.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_5.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_1_6.png)
 ## Dockerfile介绍
 ### dockerfile介绍
 dockerfile 可以通过编写简单的文件自创docker镜像，所需要的代码如下
@@ -257,8 +257,8 @@ dockerfile 可以通过编写简单的文件自创docker镜像，所需要的代
 
 
 ### 镜像分层
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_3_3.png)  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_3_4.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_3_3.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_3_4.png)  
 ## 存储
 ### volume介绍
 提供独立于容器之外的持久化存储   
@@ -270,7 +270,7 @@ dockerfile 可以通过编写简单的文件自创docker镜像，所需要的代
 镜像仓库   
 我们自己可以创建镜像来push到仓库中，共享出去
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_5_1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_5_1.png)  
 
 从Registry中搜索想要的镜像
 
@@ -340,7 +340,7 @@ linux：curl https://github.com/docker/compose
 
 ### componse实战 
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/docker_6_1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/docker/docker_6_1.png)  
 ## 参考资料
 ### 教学视频地址
 
