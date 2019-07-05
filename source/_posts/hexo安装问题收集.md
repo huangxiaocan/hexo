@@ -29,7 +29,8 @@ hexo d 发布不上，需要安装一个插件
 
 ## Yelee主题字数统计，阅读时长
 修改themes\yelee\layout\_partial\
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/Hexo_1_1.png) 
+
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/Hexo_1_1.png) 
 
 
 	

@@ -19,8 +19,11 @@ https://www.imooc.com/video/10674
 https://github.com/huangxiaocan/mySpider
 
 ### 代码介绍
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/menu.png)
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/output.png)
+
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/menu.png)  
+
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/output.png)
+
 ### basibudejie
 爬取百思不起姐网站视频，仅做学习用途
 ### baidubaike

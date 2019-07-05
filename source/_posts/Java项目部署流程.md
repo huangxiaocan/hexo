@@ -42,7 +42,7 @@ abbrlink: c423
 
 耐心等待一会，执行需要一些时间，安装成功如下图： 
  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_7.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_7.png)  
 
 使用命令检查是否安装成功:
 
@@ -54,7 +54,7 @@ java centos7配置查看jdk环境变量
 	ls -lrt /usr/bin/java
 	ls -lrt /etc/alternatives/java
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_8.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_8.png)
 
 至此断定jdk安装路径为：/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64 
 
@@ -89,13 +89,13 @@ java centos7配置查看jdk环境变量
 
 	wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_1.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_1.png) 
 
 ### 使用上面的命令就直接下载了安装用的Yum Repository，大概25KB的样子，然后就可以直接yum安装了。
 
 	yum -y install mysql57-community-release-el7-10.noarch.rpm
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_2.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_2.png)
 
 ### 之后就开始安装MySQL服务器。
 
@@ -113,14 +113,14 @@ java centos7配置查看jdk环境变量
 
 	systemctl status mysqld.service
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_3.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_3.png)
 
 ### 查看Mysql密码
 此时MySQL已经开始正常运行，不过要想进入MySQL还得先找出此时root用户的密码，通过如下命令可以在日志文件中找出密码：
 
 	grep "password" /var/log/mysqld.log
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_4.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_4.png)
 
 ### 如下命令进入数据库：
 	
@@ -132,11 +132,11 @@ java centos7配置查看jdk环境变量
 
 这里有个问题，新密码设置的时候如果设置的过于简单会报错：
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_5.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_5.png)
 
 原因是因为MySQL有密码设置的规范，具体是与validate_password_policy的值有关：
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_6.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_6.png)
 
 MySQL完整的初始密码规则可以通过如下命令查看：
 	
@@ -172,14 +172,14 @@ MySQL完整的初始密码规则可以通过如下命令查看：
 
 打开浏览器输入：http://ip,看到如下图说明安装成功
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_9.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_9.png)
 
 ### 修改配置文件nginx.conf
 此目录为nginx的主配置
 
 	vim /etc/nginx/nginx.conf
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_10.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_10.png)
 
 图中包含着子配置,我们要修改的也是子配置文件，执行如下命令
 
@@ -187,11 +187,11 @@ MySQL完整的初始密码规则可以通过如下命令查看：
 
 这是windows，多locaition的配置
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_11.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_11.png)
 
 这是linux，多locaition的配置  
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_20.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_20.png)
 
 图中红色部分就是修改的内容   
 修改完之后，执行一下命令重启nginx服务  
@@ -243,14 +243,14 @@ CentOS 7系统自带了python2，不过可以不用2版本，直接使用python3
 
 	yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_12.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_12.png)
 
 ### 下载python3
 https://www.python.org/downloads
 
 	wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_13.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_13.png)
 
 经过漫长的等待，终于下载好
 ### 安装python3
@@ -271,7 +271,7 @@ https://www.python.org/downloads
 
 可能会出现一个错误：如下图
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_14.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_14.png)
 
 因为没有按照gcc,解决办法如下命令：
 
@@ -279,7 +279,7 @@ https://www.python.org/downloads
 
 安装成功如下图：
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_15.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_15.png)
 
 继续执行
 	
@@ -289,7 +289,7 @@ https://www.python.org/downloads
 
 已经不报错了，如下图：
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_16.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_16.png)
 
 然后make
 
@@ -297,7 +297,7 @@ https://www.python.org/downloads
 
 执行完毕，如下图
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_17.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_17.png)
 
 接着make install
 
@@ -305,7 +305,7 @@ https://www.python.org/downloads
 
 执行完毕，如下图
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql5.7_1_18.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/mysql/MySql5.7_1_18.png)
 
 或者两步一起：make && make install
 

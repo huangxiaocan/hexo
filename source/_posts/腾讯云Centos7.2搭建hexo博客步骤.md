@@ -203,7 +203,7 @@ Hexo 的中文官网：http://hexo.io/zh-cn/
 而官网自己是这样说的：   
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。   
 ### 为什么要用hexo?  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_1.png)    
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_.png)    
 因为其他博客框架太烂了   
 想自己管理博客，不受其他品台的约束  
 ### 本文环境介绍和软件准备
@@ -223,7 +223,7 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
 打开 Git Bash（路径：C:\Program Files\Git\git-bash.exe），输入：git --version
 如下图，如果出现：git version 2.14.1.windows.1，这表示安装成功  
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_2.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_2.png)  
  
 ### Node.js 源设置
 在安装 Hexo 之前，先说一下 Node.js 的源，Node.js 官方源默认是：http://registry.npmjs.org，但是由于在国外，说不定你使用的时候就抽风无法下载任何软件。所以我们决定暂时使用淘宝提供的源，淘宝源官网：http://npm.taobao.org/  
@@ -249,7 +249,7 @@ Mac下执行：
 然后执行：hexo init，这个时间也会比较长，也有可能要等几分钟，有显示 WARN 也不用管
 安装完成之后，D:\work\code\hexo 目录结构是这样的：
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_3.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_3.png)  
 
 现在我们启动 hexo 本地服务，看下默认的博客是怎样的？
 命令：
@@ -258,7 +258,7 @@ Mac下执行：
 
 现在用浏览器访问：http://localhost:4000/，效果如下图
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_4.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_4.png) 
 
 如果要停止 hexo 服务：在 Git Bash 下按 Ctrl + C 即可
 
@@ -288,7 +288,7 @@ Yelee主题使用说明: http://moxfive.coding.me/yelee/
 
 下载好主题文件之后，我们现在要修改 D:\work\code\hexo 目录下的项目配置文件：_config.yml，把对应的主题目录名改下，编辑如下图
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_5.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_5.png)  
 
 更改主题目录名后，我们还要重新生成主题静态内容：
 继续在 Git Bash 中输入命令：
@@ -302,7 +302,7 @@ Yelee主题使用说明: http://moxfive.coding.me/yelee/
 
 重新访问：http://localhost:4000/，效果如下图   
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_6.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_6.png)   
 
 ### 把本地的博客内容发布到 服务器上Git
 要把本地的静态博客同步到 Github，我们还需要先安装两个跟部署相关的 hexo 插件：  
@@ -457,7 +457,7 @@ Yelee主题使用说明: http://moxfive.coding.me/yelee/
 
 有弹出下面提示框，请输入你的服务器密码
  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_7.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_7.png)  
 
 访问服务器地址进行检查：
 
@@ -495,15 +495,15 @@ MarkdownPad 2是一款较不错的Markdown编辑器，可快速将文本转换�
 	Email address：Soar360@live.com  
 	License key：GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_8.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_8.png)
 
 如果是win10还需要安装一个组件awesomium_v1.6.6_sdk_win.exe，否则会出现错误提示
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_9.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_9.png)
 
 破解和安装组件后需要重启软件 才可以正常的使用，重启MarkdownPad2就可以用了!  
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hexo_1_10.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_10.png)
 
 ## 又拍云存储
 博客中显示的图片，我采用的是又拍云存储进行保存

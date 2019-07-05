@@ -8,7 +8,7 @@ abbrlink: 2d20
 ---
 ## 快速入门
 ### MySql8.0新特性概览
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql_1_1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/MySql_1_1.png)  
 
 ## 账户与安全
 ### 用户创建和授权
@@ -30,13 +30,13 @@ MySql8.0中默认的身份认证插件是caching_sha2_password,替代了之前�
 	show variables like 'default_authentication';	
 
 mysql5.7版本的默认插件如下图  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql_1_2.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/MySql_1_2.png) 
 
 mysql8.0版本的默认插件如下图  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql_1_3.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/MySql_1_3.png)
 
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql_1_4.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/MySql_1_4.png)
 
 修改mysql8.0用5.7版本的插件mysql_native_password的两种方式
 1，执行如下脚本：
@@ -57,7 +57,7 @@ password_require_current = on
 
 	show variables like 'password';
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/MySql_1_5.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/MySql_1_5.png)
 ### 角色管理
 
 ## 优化器索引

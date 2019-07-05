@@ -8,7 +8,7 @@ abbrlink: b9cb
 ---
 
 ## Java教程
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/java.jpg) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/java.jpg) 
 ### Java快速入门
 
 本章的主要内容是快速掌握Java程序的基础知识，了解并使用变量和各种数据类型，介绍基本的程序流程控制语句。
@@ -116,7 +116,7 @@ TCK：Technology Compatibility Kit
 
 搜索JDK 12，确保从Oracle的官网下载最新的稳定版JDK： 
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/l.jpg)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/l.jpg)  
 找到Java SE 12.x的下载链接，下载安装即可。
 
 设置环境变量
@@ -272,7 +272,7 @@ Java代码运行助手可以让你在线输入Java代码，然后通过本机运
 Java代码运行助手将代码保存为临时文件，然后调用Java虚拟机执行代码；
 
 网页显示代码执行结果：  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/1.png)  
 下载
 点击右键，目标另存为：下载练习：LearnJava.java （推荐使用IDE练习插件快速下载）
 
@@ -344,12 +344,12 @@ NetBeans是最早由SUN开发的开源IDE，由于使用人数较少，目前已
 Eclipse的发行版提供了预打包的开发环境，包括Java、JavaEE、C++、PHP、Rust等。从这里下载：
 
 我们需要下载的版本是Eclipse IDE for Java Developers：  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/IDE.jpg)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/IDE.jpg)  
 设置Eclipse
 下载并安装完成后，我们启动Eclipse，对IDE环境做一个基本设置：
 
 选择菜单“Eclipse/Window”-“Preferences”，打开配置对话框：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/ecplise_preferences.jpg)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/ecplise_preferences.jpg)  
 我们需要调整以下设置项：
 
 General > Editors > Text Editors
@@ -372,7 +372,7 @@ Java > Installed JREs
 Eclipse IDE结构
 打开Eclipse后，整个IDE由若干个区域组成：
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/lean.jpg)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/lean.jpg)   
 中间可编辑的文本区（见1）是编辑器，用于编辑源码；
 分布在左右和下方的是视图：
 Package Exploroer（见2）是Java项目的视图
@@ -382,19 +382,19 @@ Outline（见4）是当前正在编辑的Java源码的结构视图
 新建Java项目
 在Eclipse菜单选择“File”-“New”-“Java Project”，填入HelloWorld，JRE选择Java SE 12：  
  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/helloworld.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/helloworld.png)  
 暂时不要勾选“Create module-info.java file”，因为模块化机制我们后面才会讲到： 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/javasettings.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/javasettings.png)  
 点击“Finish”就成功创建了一个名为HelloWorld的Java工程。
 
 新建Java文件并运行
 
 展开HelloWorld工程，选中源码目录src，点击右键，在弹出菜单中选择“New”-“Class”：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/class.
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/class.
 在弹出的对话框中，Name一栏填入Hello：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/javaclass.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/javaclass.png) 
 
 点击”Finish“，就自动在src目录下创建了一个名为Hello.java的源文件。我们双击打开这个源文件，填上代码：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/hellojpg.jpg) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hellojpg.jpg) 
 在Console窗口中就可以看到运行结果：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/result.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/result.png) 

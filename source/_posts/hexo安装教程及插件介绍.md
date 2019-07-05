@@ -16,30 +16,37 @@ hexo的使用，请参考上面的博文，今天我主要分享hexo的插件。
 
 	npm install hexo-generator-index-pin-top –save
 	npm uninstall hexo-generator-index –save
+
 参考文档：[点我](https://blog.csdn.net/qwerty200696/article/details/79010629)
 ### 文章字数+阅读时长统计
 
 	npm i –save hexo-wordcount
+
 参考文档：[点我](https://blog.csdn.net/ganzhilin520/article/details/79048036)
 ### 百度链接主动推送
 
 	npm install hexo-baidu-url-submit –save
+
 参考文档：[点我](https://hui-wang.info/2016/10/23/Hexo%E6%8F%92%E4%BB%B6%E4%B9%8B%E7%99%BE%E5%BA%A6%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5/)
 ### hexo上传至FTP服务器
 
 	npm install hexo-deployer-ftpsync –save
+
 参考文档：[点我](https://hexo.io/zh-cn/docs/deployment.html#FTPSync)
 ### hexo上传至腾讯云COS
 
 	npm install hexo-deployer-cos –save
+
 参考文档：[点我](https://github.com/sdlzhd/hexo-deployer-cos#user-content-options)
 ### hexo上传至阿里云
 
 	npm install hexo-deployer-aliyun –save
+
 参考文档：[点我](https://github.com/yedaodao/hexo-deployer-aliyun)
 ### hexo管理插件
 
 	npm install –save hexo-admin
+
 参考文档：[点我](https://github.com/jaredly/hexo-admin)
 ### hexo文章加密码
 
@@ -52,6 +59,7 @@ hexo的使用，请参考上面的博文，今天我主要分享hexo的插件。
 ### Valine评论
 
 	npm install leancloud-storage –save
+
 参考文档：[点我](https://valine.js.org/quickstart.html#npm)
 ### Valine评论提醒   
 
@@ -105,6 +113,7 @@ hexo的使用，请参考上面的博文，今天我主要分享hexo的插件。
     height: 300
     mobile:
     show: true
+
 ### 网站运行时间添加
 实时展示你的博客已经运行了多长时间了，我还是蛮喜欢这个功能的，随着时间的增长，和你的博客访问量形成照样，成就感也会增添不少。  
 在 hexo/themes/[your theme]/layout 文件夹下找到你的 footer 文件，即脚布局文件，在对应的位置添加一下代码。

@@ -9,9 +9,11 @@ description: 用Jenkins自动化搭建测试环境
 abbrlink: c061
 ---
 ## 快速入门
+
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/jenkins/Jenkins_1_1.png)
 
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/jenkins/Jenkins_1_2.png)
+
 ## Jenkins简介
 通用的开源平台  
 常用于自动化测试，持续集成
@@ -21,7 +23,6 @@ abbrlink: c061
 打开网址：https://jenkins.io/zh/
 
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/jenkins/Jenkins_1_3.png)
-
 
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/jenkins/Jenkins_1_4.png)
 
@@ -50,6 +51,7 @@ C:\Users\admin\.jenkins\secrets\initialAdminPassword
 
 ## jenkins插件安装
 在jenkins管理页面单击系统管理--->插件管理--->可选插件
+
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/jenkins/Jenkins_1_10.png)
 
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/jenkins/Jenkins_1_11.png)

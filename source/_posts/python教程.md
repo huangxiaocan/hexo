@@ -62,7 +62,7 @@ Python得到Guido同事的 欢迎。
 Python将许多机器层面上的细节隐藏，交给编译器处理，并凸显出逻辑层面的编程思考。
 Python 程序 员可以花更多的时间用于思考程序的逻辑，而不是具体的实现细节。这一特征吸引了广大的程序员。 
 Python 开始流行。
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/20190624220026_龟叔.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/20190624220026_龟叔.png)  
 人生苦短，我用Python   
 启示录  
 Python崇尚优美、清晰、简单，是一个优秀并广泛使用的语言。
@@ -81,7 +81,7 @@ Python从其他语言中学到了很多，无论是已经进入历史的ABC，�
 关键点常识 Python/ˈpaɪθən/的发音与拼写 Python的意思是蟒蛇，源于作者喜欢的一部电视剧 Python的作者是Guido van Rossum（吉多·范罗苏姆） Python是龟叔在1989 年圣诞节期间，为了打发无聊的圣诞节而用C编写的一个编程语言 Python正式诞生于1991 年 Python的解释器如今有多个语言实现，我们常用的是CPython（官方版本的C语言实现），其他还 有Jython（可以运行在Java平台）、IronPython（可以运行在.NET和 Mono平台）、PyPy（Python 实现的，支持JIT即时编译）   
 Python目前有两个版本，Python2和Python3，最新版分别为2.7.15 和3.7，现阶段大部分公司 用的是Python2 和Python3 Life is shot, you need Python. 人生苦短，我用Python。    
 2019 年3月份 编程语言流行排行榜 （https://www.tiobe.com/tiobe-index/）
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/20190624222131python_top.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/20190624222131python_top.png) 
 ### Python优缺点 
 #### 优点   
 简单————Python是一种代表简单主义思想的语言。阅读一个良好的Python程序就感觉像是在 读英语一样，Python的这种伪代码本质是它最大的优点之一。它使你能够专注于解决问题而不是去搞明 白语言本身。   
@@ -113,18 +113,18 @@ print 1, 2 print(1,2) 输出使用空格分割的两个值，使用两个参数�
 ### Python3的安装 
 Python3安装 直接到官网https://www.Python.org/下载，安装就可以了。 安装比较简单，点exe文件一直下一步就可以了（注意：安装的时候有个选择是否添加环境变量，这 个选是，之后就不用添加环境变量了）如果没有，请添加环境变量。 右键点击计算机 点击属性 高级系统设置 环境变量 系统变量里的path 编辑添加安装Python的路径 （例如D:xuegod;D:\xuegod\script)
 （这样命令窗口运行Python输入Python，运行 Python） 注意：我们选择64位安装包,Python的安装目录中不要有中文.   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/20190624223854python_官网.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/20190624223854python_官网.png)  
 第一步  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/20190624223924python_version.png) 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/20190624223951python_download.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/20190624223924python_version.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/20190624223951python_download.png)   
 第二步：可以install now，或者是自定义（推荐大家都自定义安装）
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190624224307_install_1.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190624224307_install_1.png)
 第三步：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190624224326_install_2.png)
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190624224340_install_3.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190624224326_install_2.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190624224340_install_3.png)  
 安装完成   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190624224355_install_4.png)
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190624224410_install_5.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190624224355_install_4.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190624224410_install_5.png)
 ### Python环境变量配置
 配置环境变量   
     	-->右键点击我的电脑   
@@ -135,11 +135,11 @@ Python3安装 直接到官网https://www.Python.org/下载，安装就可以了�
 		-->有path的点击添加   
 		-->将你 Python 安装目录(D:\xuegod)以及 Python 中 scripts 的文件路径(D:\xuegod\Scripts) 添加到path中。   
    	恭喜你整个Python已经安装成功  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102449_python_path1.png)
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102508_python_path2.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102449_python_path1.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102508_python_path2.png)
 ### Python安装目录介绍
 #### 安装目录介绍   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102524_python_menu.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102524_python_menu.png)
 DLLS: Python的动态链接库，跟编译器有关，和Python编程关系不大    
 Doc: Python 的参考书，有很多实例   
 Include: Python 编译器的C语言头文件源码   
@@ -180,55 +180,55 @@ IPython IDLE Python gui (IDLE是Python自带的简单的集成开发环境)
   
 	MTW881U3Z5-eyJsaWNlbnNlSWQiOiJNVFc4ODFVM1o1IiwibGljZW5zZWVOYW1lIjoiTnNzIEltIiwiYXNzaWduZWVOYW1lIjoiIiwiYXNzaWduZWVFbWFpbCI6IiIsImxpY2Vuc2VSZXN0cmljdGlvbiI6IkZvciBlZHVjYXRpb25hbCB1c2Ugb25seSIsImNoZWNrQ29uY3VycmVudFVzZSI6ZmFsc2UsInByb2R1Y3RzIjpbeyJjb2RlIjoiSUkiLCJwYWlkVXBUbyI6IjIwMTktMTEtMDYifSx7ImNvZGUiOiJBQyIsInBhaWRVcFRvIjoiMjAxOS0xMS0wNiJ9LHsiY29kZSI6IkRQTiIsInBhaWRVcFRvIjoiMjAxOS0xMS0wNiJ9LHsiY29kZSI6IlBTIiwicGFpZFVwVG8iOiIyMDE5LTExLTA2In0seyJjb2RlIjoiR08iLCJwYWlkVXBUbyI6IjIwMTktMTEtMDYifSx7ImNvZGUiOiJETSIsInBhaWRVcFRvIjoiMjAxOS0xMS0wNiJ9LHsiY29kZSI6IkNMIiwicGFpZFVwVG8iOiIyMDE5LTExLTA2In0seyJjb2RlIjoiUlMwIiwicGFpZFVwVG8iOiIyMDE5LTExLTA2In0seyJjb2RlIjoiUkMiLCJwYWlkVXBUbyI6IjIwMTktMTEtMDYifSx7ImNvZGUiOiJSRCIsInBhaWRVcFRvIjoiMjAxOS0xMS0wNiJ9LHsiY29kZSI6IlBDIiwicGFpZFVwVG8iOiIyMDE5LTExLTA2In0seyJjb2RlIjoiUk0iLCJwYWlkVXBUbyI6IjIwMTktMTEtMDYifSx7ImNvZGUiOiJXUyIsInBhaWRVcFRvIjoiMjAxOS0xMS0wNiJ9LHsiY29kZSI6IkRCIiwicGFpZFVwVG8iOiIyMDE5LTExLTA2In0seyJjb2RlIjoiREMiLCJwYWlkVXBUbyI6IjIwMTktMTEtMDYifSx7ImNvZGUiOiJSU1UiLCJwYWlkVXBUbyI6IjIwMTktMTEtMDYifV0sImhhc2giOiIxMDgyODE0Ni8wIiwiZ3JhY2VQZXJpb2REYXlzIjowLCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-aKyalfjUfiV5UXfhaMGgOqrMzTYy2rnsmobL47k8tTpR/jvG6HeL3FxxleetI+W+Anw3ZSe8QAMsSxqVS4podwlQgIe7f+3w7zyAT1j8HMVlfl2h96KzygdGpDSbwTbwOkJ6/5TQOPgAP86mkaSiM97KgvkZV/2nXQHRz1yhm+MT+OsioTwxDhd/22sSGq6KuIztZ03UvSciEmyrPdl2ueJw1WuT9YmFjdtTm9G7LuXvCM6eav+BgCRm+wwtUeDfoQqigbp0t6FQgkdQrcjoWvLSB0IUgp/f4qGf254fA7lXskT2VCFdDvi0jgxLyMVct1cKnPdM6fkHnbdSXKYDWw==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQAF8uc+YJOHHwOFcPzmbjcxNDuGoOUIP+2h1R75Lecswb7ru2LWWSUMtXVKQzChLNPn/72W0k+oI056tgiwuG7M49LXp4zQVlQnFmWU1wwGvVhq5R63Rpjx1zjGUhcXgayu7+9zMUW596Lbomsg8qVve6euqsrFicYkIIuUu4zYPndJwfe0YkS5nY72SHnNdbPhEnN8wcB2Kz+OIG0lih3yz5EqFhld03bGp222ZQCIghCTVL6QBNadGsiN/lWLl4JdR3lJkZzlpFdiHijoVRdWeSWqM4y0t23c92HXKrgppoSV18XMxrWVdoSM3nuMHwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+KwOJ7WnuTCUq1meE6GkKc4D/cXmgpOyW/1SmBz3XjVIi/zprZ0zf3qH5mkphtg6ksjKgKjmx1cXfZAAX6wcDBNaCL+Ortep1Dh8xDUbqbBVNBL4jbiL3i3xsfNiyJgaZ5sX7i8tmStEpLbPwvHcByuf59qJhV/bZOl8KqJBETCDJcY6O2aqhTUy+9x93ThKs1GKrRPePrWPluud7ttlgtRveit/pcBrnQcXOl1rHq7ByB8CFAxNotRUYL9IF5n3wJOgkPojMy6jetQA5Ogc8Sm7RG6vg1yow==
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102549_setup1.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102549_setup1.png)  
 点击next  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102615_setup2.png)    
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102615_setup2.png)    
 自定义文件安装路径  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102632_setup3.png)  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102646_setup4.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102632_setup3.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102646_setup4.png)   
 点击install    
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102705_setup5.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102705_setup5.png)   
 等待安装好，点击next  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102720_setup6.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102720_setup6.png)  
 点击finish  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102732_setup7.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102732_setup7.png)   
 之后就进入激活阶段   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102751_setup8.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102751_setup8.png)  
 已经发过激活码，配置好后，直接出现以下界面。   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102813_setup9.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102813_setup9.png)  
 安装好 pycharm 后点开就会出现以上界面点击 Create New project （创建新的 project）   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102827_setup10.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102827_setup10.png)  
 然后点击create，就会直接创建一个文件夹。然后就可以在里面创建相应的py文件。 配置Python3.exe。运行项目时用Python3 运行  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625102842_setup11.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625102842_setup11.png) 
 ### Python脚本运行
 安装完成，打开命令窗口（键盘：win+R）：输入Python    
 注意：使用最高管理员权限打开cmd，否则后面pip安装模块时会出现各种错误。  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625110544_py37_1.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625110544_py37_1.png)   
 打印Python的第一个程序hello world   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625110841_py37_2.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625110841_py37_2.png)
 更新pip （在 Windows命令提示符(cmd)中输入以下命令进行 pip的更新:Python-m pip install-U pip）   
 更新pip   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625111212_py37_3.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625111212_py37_3.png)   
 安装cmder   
 上面的cmd之后，为了更好的让大家使用cmd中的操作，咱们在这里引用一个新的软件cmder， 是一个比cmd更加强大的应用软件，其命令和linux命令相同但比cmd更加强大。  
  
 趣味实战： 
 
     print('\n'.join([''.join([('Love'[(x-y)%len('Love')]if ((x*0.05)**2+(y*0.1)**2-1)**3-(x*0.05)**2*(y*0.1)**3 <= 0 else ' ') for x in range(-30, 30)]) for y in range(30, -30, -1)]))
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625112301_love.png)
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625112301_love.png)
 ### 实战：解决windows下python多版本冲突问题   
 可能有很多人有疑惑，后期在工作当中我们不同的项目会指定不同的python版本，如果同一台机器 上我们安装不同的版本（如下图所示），我们该如何操作不同版本的python呢？  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625112327_python_version_many.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625112327_python_version_many.png)  
 上面的 图片中我们很明显了解到我的电脑里，会有 3 个版本的 python，启动了 3 个版本 python 并没有产生冲突，我是如何解决这个问题的？   
 解决： python 解释器重命名   
 如下图所示   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625112400_many_1.png)    
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625112415_many2.png) 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625112430_many3.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625112400_many_1.png)    
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625112415_many2.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625112430_many3.png)   
 现在我们的电脑多版本共存，也就是这三者之间并不冲突，并行关系，但是pip的命令也是一样的， 我们需要解决利用pip来安装到不同的python版本中。   
 解决方案：利用脚本安装   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625113110_django_1.png)   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625113132_digango_2.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625113110_django_1.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625113132_digango_2.png)  
 下载软件百度链接： https://pan.baidu.com/s/1vItLQblghxHUnF_oRcyXQA 密码：3ewm 
 
 ## Python数字，字符串
@@ -236,7 +236,7 @@ IPython IDLE Python gui (IDLE是Python自带的简单的集成开发环境)
 #### 变量    
 在程序中，有时我们需要对2个数据进行求和，那么该怎样做呢？   
 大家类比一下现实生活中，比如去超市买东西，往往咱们需要一个菜篮子，用来进行存储物品，等到 所有的物品都购买完成后，在收银台进行结账即可。  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625144739_第二章_1.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625144739_第二章_1.png)   
 如果在程序中，需要把2个数据，或者多个数据进行求和的话，那么就需要把这些数据先存储起来， 然后把它们累加起来即可，变量就是用来存东西的。   
 如果在程序中，需要把2个数据，或者多个数据进行求和的话，那么就需要把这些数据先存储起来， 然后把它们累加起来即可，变量就是用来存东西的。    
 在Python中，存储一个数据，需要一个叫做变量的东西，如下示例: 
@@ -249,17 +249,17 @@ IPython IDLE Python gui (IDLE是Python自带的简单的集成开发环境)
 所谓变量，可以理解为菜篮子，如果需要存储多个数据，最简单的方式是有多个变量； 程序就是用来处理数据的，而变量就是用来存储数据的；   
 #### 变量的类型   
 生活中的“类型”的例子:   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145310_第二章_2.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145310_第二章_2.png)  
 程序中:  
 为了更充分的利用内存空间以及更有效率的管理内存，变量是有不同的类型的，如下所示:  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145334_第二章_3.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145334_第二章_3.png)  
 怎样知道一个变量的类型呢？   
 在python中，只要定义了一个变量，而且它有数据，那么它的类型就已经确定了，不需要咱们开发 者主动的去说明它的类型，系统会自动辨别。   
 可以使用type(变量的名字)，来查看变量的类型。以上知识让我们知道了，什么是变量，变量的类型 是什么？接下来让我们学习，变量的起名，以及标识符相关规范。   
 #### 标示符和关键字    
 标示符   
 什么是标示符，看下图:  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145357_第二章_4.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145357_第二章_4.png)   
 火星文：挖掘机技术哪家强，中国山东找蓝翔  
 标示符是自己定义的，直指程序员的本心，就是开发人员在程序中自定义的一些符号和名称，如变量 名 、函数名等  
 标示符的命名规则   
@@ -286,13 +286,13 @@ IPython IDLE Python gui (IDLE是Python自带的简单的集成开发环境)
 	G.U.I #错误   
 
 python中的标识符是区分大小写的  ：
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625154609_第二章_13.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625154609_第二章_13.png)   
 #### 命名规则和方法   
 见名知意：   
 起一个有意义的名字，尽量做到看一眼就知道是什么意思(提高代码可读性) 。   
 比如: 名字 就定义为 name , 定义学生 用 student。   
 驼峰命名法：  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145432_第二章_6.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145432_第二章_6.png)   
 小驼峰式命名法（lower camel case）： 
 第一个单词以小写字母开始；第二个单词的首字母大写， 例如：  
 
@@ -327,7 +327,7 @@ Python推荐就是用下划线“_”来连接所有的单词。
 	name,age = “xuegod”，10   
 
 注意：两边的变量和常量要对等。  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145501_第二章_7.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145501_第二章_7.png)   
 #### python 虚拟机（面试题）
 1.垃圾回收机制   
 当一个常量被生成，会占用一份内存，这时候如果有变量指向该常量，那么该常量的引用计数为1， python 虚拟机规定，当一个常量的引用计数为0，也就是没有变量指向的时候，该常量占用的内存会被 回收。   
@@ -345,7 +345,7 @@ Id(name) 和 id（user）对比，你会惊讶的发现指向的 id竟然相同�
 	del(user) 删除了指针user 
  
 我们再来访问，name和user就会发现如下图：  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145533第二章_8.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145533第二章_8.png)   
 也就是指向‘xuegod’的内存的所有指针都已经被删除了，引用计数 0   
 2.python是强类型的动态脚本语言
 强类型：不允许不同类型相加。例如：整形+字符串会报类型错误。   
@@ -420,8 +420,8 @@ Long的爱恨情仇：
 	<class 'float'>  
  
 #### python 数字类型运算符   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625161944_第二章_14.png)   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625162031_第二章_15.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625161944_第二章_14.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625162031_第二章_15.png)   
 ### python字符串类型  
 #### python 字符串类型概述   
 字符串定义：   
@@ -450,7 +450,7 @@ Long的爱恨情仇：
 这就是我牛X之处   
 哈哈哈'''  
 注释：  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145655_第二章_9.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145655_第二章_9.png)   
 字符串存储的另外一种方式： 
   
 	>>> a = 'for'   
@@ -465,7 +465,7 @@ Long的爱恨情仇：
 	“\n”换行；   
 	“\t”水平制表符，tab键。   
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625163124_第二章_16.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625163124_第二章_16.png)   
 （\a的时候win会颤抖下，发出不明觉厉的声响）   
 字符串格式化操作：   
 在字符串当中以指定的格式符号进行占位，然后我们将指定的数据传入字符串   
@@ -474,7 +474,7 @@ Long的爱恨情仇：
 	%d 数字占位符 
 	%f 浮点型数字占位符 
 	%.2f 控制浮点型数字占位符
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145723_第二章_10.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145723_第二章_10.png)   
 （对于学渣的我来说，知道分数和不知道分数同样纠结），当然只要我足够快乐，父母的巴掌就打不到我。   
 
 打印字符串 
@@ -500,10 +500,10 @@ Long的爱恨情仇：
 ### python字符串的索引(index)  
    
 超市储物柜：  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145818_第二章_11.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145818_第二章_11.png)   
 在python当中所有有序的序列都是由索引概念的，它们的区别在于序列是否可以被修改；索引在我 们初学的时候我们可以理解为字符串的下标；   
 字符串里的每一个个体都被称作字符也是该字符串的一个元素，每一个元素都对应一个索引值（下标） ； 在这里可以用len() 方法看一个序列的长度 索引的用法，取单个元素时，使用字符串[索引值] 索引值为对应元素的索引号；
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625145841_第二章_12.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625145841_第二章_12.png)   
 比如字符串‘while’，可以按照下图理解其下标概念，索引号从0开始；     
 字符串截取：字符串[start:end]，得到对应索引范围的元素，该范围包含起始端，不包含结尾端，默 认截取的方向是从左往右的； 
   
@@ -538,7 +538,7 @@ Long的爱恨情仇：
 	print(str_test[9:1:-2]) 
   
 ### python字符串的方法    
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625164355_第二章_17.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625164355_第二章_17.png)   
 index [ˈɪndeks]:索引  
  
 	str_test = 'hello world'     
@@ -556,7 +556,7 @@ index [ˈɪndeks]:索引
 	4  
 	7    
  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625164631第二章_18.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625164631第二章_18.png)   
 partition [pɑːˈtɪʃn]：分区    
 split [splɪt]:分割 replace [rɪˈpleɪs]：代替   
 
@@ -568,7 +568,7 @@ split [splɪt]:分割 replace [rɪˈpleɪs]：代替
 	print(my_str.splitlines())   
 	print(str_test.replace('h','w'))  
  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625164653_第二章_19.png)     
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625164653_第二章_19.png)     
 center[ˈsentə(r)]：中心   
 format [ˈfɔːmæt]：格式   
 strip[strɪp]:除去
@@ -609,7 +609,7 @@ center这个里面可以加入两个参数
   
 	'for is cool' 字符串的变形    
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625164713_第二章_20.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625164713_第二章_20.png)  
  swap [swɒp]：转换   
 capitalize [ˈkæpɪtəlaɪz]：首字母大写 
   
@@ -642,15 +642,15 @@ capitalize [ˈkæpɪtəlaɪz]：首字母大写
 	HELLO hello hELLO Hello,World Hello world for is cool for is cool for is cool  
  
 字符串的判断  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625164912_第二章_21.png)  
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625170029_第二章_23.png)    
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625164912_第二章_21.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625170029_第二章_23.png)    
  
 ### python 字符串的编码     
 
 encode是编码   
 decode是解码   
 编码方式对比：   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/微信截图_20190625112145_第二章_24.png)     
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/微信截图_20190625112145_第二章_24.png)     
 python字符串是一种数据类型，但是字符串比较特殊，它有一个编码的问题。  
 因为计算机只能处理数字，如果要处理文本，就必须先把文本转换为数字才能处理。最早的计算机在 设计时采用 8个比特（bit）作为一个字节（byte），所以，一个字节能表示的最大的整数就是255（二 进制11111111=十进制255），如果要表示更大的整数，就必须用更多的字节。比如两个字节可以表示 的最大整数是65535，4个字节可以表示的最大整数是4294967295。    
 由于计算机是英语国家发明的，最早只有127个字母被编码到计算机里，也就是大小写英文字母、数 字和一些符号，这个编码表被称为ASCII编码，比如大写字母A的编码是65，小写字母a的编码是97。    
@@ -693,9 +693,9 @@ UTF-8编码有一个额外的好处，就是ASCII 编码实际上可以被看成
 #### Python 列表的定义
 定义一个空列表
 注意：列表里面的数据类型是可变的，甚至可以嵌套一个列表
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_1.png)    
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_1.png)    
 Python 列表操作   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_2.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_2.png) 
 ### Python 元组
 #### 元组的定义   
 元组是有序的，不可修改的，以逗号分割的，以小括号包围的序列，可以通过()和 tuple()函数定义。
@@ -835,7 +835,7 @@ tuple 函数的功能与 list 函数基本上一样的，以一个序列作为�
 	(4, 3, 2)
 
 Python 元组的方法   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3,3.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3,3.png) 
 
 	>>> tup2
 	(0, 1, 2, 3, 4, 5, 6)
@@ -863,7 +863,7 @@ python 元组与列表的区别
 联数组，也有叫哈希表的），以逗号分割的，以大括号包围的数据类型；   
 生活中的字典特点：前几页相当于目录结构，通过偏旁部首可以查找内容。      
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_4.png)    
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_4.png)    
 
 Python 字典特性讲解   
 字典和列表一样，也能够存储多个数据，字典中的值并没有特殊顺序。  
@@ -918,7 +918,7 @@ Python 字典的特点
 因为字典以键取值，所以字典的键唯一且不可修改；  
 因为字典的键不可修改，所以列表和字典等可变类型的数据不可以给字典做键  
 Python 字典的常见操作    
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_5.png) 
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_5.png) 
 
 
 	>>> info = {'name': 'for', 'age': 18, 'addr': 'beijing'}
@@ -967,7 +967,7 @@ Python 字典的常见操作
 	>>> len(info)
 	6
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_6.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_6.png)   
 
 弹出，返回并删除指定键对应的值
 
@@ -1015,7 +1015,7 @@ Python 字典的常见操作
 	捆绑
 	这个了解下  
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_7.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_7.png)  
 ### Python 集合
 集合定义  
 集合是一组无序不重复的元素集合。  
@@ -1095,7 +1095,7 @@ set、list、tuple 之间可以相互转换
 	
 集合操作  
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_8.png)  
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_8.png)  
  
 	s.add(x)
 	>>> thisset = set(("Google", "Runoob", "Taobao"))
@@ -1149,8 +1149,8 @@ s.pop() 随机删除集合中的一个元素
 	'Google' >>> print(thisset)
 	{'Taobao', 'Runoob', 'Facebook'}
 
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_9.png)   
-![avatar](http://hc-image-upyun.test.upcdn.net/hexo/python_3_10.png)     
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_9.png)   
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/python_3_10.png)     
 欢迎阅读此文章，我目前只学习到此处。后续更新。。。。。。。。
 ## python的运算和流程控制
 ### Python 运算(布尔值，自增，比较，逻辑)
