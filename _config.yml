@@ -3,9 +3,9 @@
     ## Source: https://github.com/hexojs/hexo/
 
     # Site 这一块区域主要是设置博客的主要说明，需要注意的是：每个冒号后面都是有一个空格，然后再书写自己的内容的s
-    title: 泊寓码农 
+    title: java学习路线
     subtitle: Talk is cheap. Show me the code
-    description: hexo github java python yelee 慕课网 传智播客
+    description: hexo github java python yelee 慕课网 传智播客黑马程序员 java学习路线 javascript学习指南 盗墓笔记秦岭神树解析 秦岭神树的青铜树 吴邪海底墓
     author: huangc
     email: 571522149@qq.com
     language: zh-CN
@@ -14,7 +14,7 @@
 
     # URL 这一块一般可以设置的是 url 这个参数，比如我要设置绑定域名的，这里就需要填写我的域名信息
     ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-    url: http://www.boyumanong.top
+    url: https://code.boyumanong.top
     root: /
 
     # 自动生成sitemap
@@ -33,7 +33,7 @@
     nofollow:
     enable: true
     exclude:
-    - www.boyumanong.top
+    - code.boyumanong.top
     - code.skyheng.com
 
 
@@ -88,6 +88,12 @@
     search:
       path: search.xml
       field: all
+      format: html
+      limit: 10000
+    
+    local_search:
+        enable: true
+
 
     html_minifier:
       enable: true

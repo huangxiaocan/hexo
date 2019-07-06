@@ -6,5 +6,5 @@ Disallow: /fancybox
 Disallow: /font-awesome
 Disallow: /img
 Disallow: /js
-Sitemap: http://boyumanong.top/sitemap.xml
-Sitemap: http://boyumanong.top/baidusitemap.xml
+Sitemap: https://code.boyumanong.top/sitemap.xml
+Sitemap: https://code.boyumanong.top/baidusitemap.xml

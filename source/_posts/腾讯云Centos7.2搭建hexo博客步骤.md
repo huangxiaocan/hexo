@@ -506,9 +506,25 @@ MarkdownPad 2是一款较不错的Markdown编辑器，可快速将文本转换�
 ![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/hexo_1_10.png)
 
 ## 又拍云存储
-博客中显示的图片，我采用的是又拍云存储进行保存
+博客中显示的图片，我采用的是又拍云存储进行保存，但是发现流量多起来，要收费，已经弃用，改用git上存图片
 https://console.upyun.com/services/hc-image-upyun/filemanage/
 
+## 腾讯云SSL证书https协议配置
+1，首先注册一个腾讯云账号获取域名,https://www.qcloud.com/
+2，在腾讯云控制台申请免费一年的SSL证书
+
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/ssl_1.png)
+
+
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/ssl_2.png)
+
+
+![avatar](https://raw.githubusercontent.com/huangxiaocan/hexo/master/source/_posts/hexo-image/hexo/ssl_3.png)
+
+下面开始去服务器配置https证书  
+下载的文件一般有Apache和Nginx以及IIS,有的会有Tomcat,这里我们取用Nginx  
+参考官方的文档：写的很详细
+https://cloud.tencent.com/document/product/400/35244
 ## 结束语
 我希望从这一篇你也可以为自己搭建一个属于你自己的博客，在博客中畅写。
 最后，祝你搭建博客成功，创造属于你的世界！
