@@ -16,6 +16,10 @@ abbrlink: 82d1
 
 	http://yun.itheima.com/course/540.html
 
+毕向东老师的java基础视频
+
+	http://yun.itheima.com/course/7.html
+
 ## 中级视频
 讲述javaweb开发方面的知识
 
